@@ -1,0 +1,70 @@
+/*newslatter*/
+.newsletter-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.newsletter-title-description {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+.newsletter-title-description h2 {
+    font-size: 30px;
+}
+
+.email-input-container {
+    margin-top: 1%;
+}
+
+.sec6 p {
+    padding: 10px 50px 0 50px;
+    font-size: 1em;
+}
+
+.sec6 button {
+    padding: 10px 15px;
+}
+
+.email-form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+
+}
+
+.email {
+    font-size: 18px;
+    margin-top: 4%;
+    padding: 3%;
+    width: 150%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#navegacionMenu{
+    background-color: $primario;
+}
+#navegacionMenu a{
+    background-color: white;
+    color: $primario;
+}
+
+.title-text-separator {
+    width: 30%;
+    margin-top: 2%;
+    border: solid 2px #ff5a6e;
+}
+
+/* ******* FIN NEWSLETTER***********/

@@ -1,0 +1,147 @@
+#main-blog p {
+    text-align: justify;
+}
+
+
+#header-blog {
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    )
+    ,url("../resources/img/img-blog.jpg");
+    height: 40vh;
+    }
+
+
+.ingredients {
+    line-height: 1.5rem;
+    margin-top: -1rem;
+    list-style-type: none;
+    text-align: left;
+    }
+
+.ingredients li:before {
+    content: '✓ ';
+    }
+
+.directions {
+        line-height: 1.5rem;
+        margin-top: -1rem;
+        text-align: left;
+    }
+
+.directions-container {
+    padding: 15px;
+    }
+
+.description p {
+    font-style: italic;
+    text-align: left;
+    }
+
+.receta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h4 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        color: var(--oscuro);
+        text-align: left;
+    }
+    h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: $oscuro;
+    }
+}
+
+#container {
+    margin: 15px;
+    img {
+        margin-bottom: 18px;
+        width: 300px;
+        height: 300px;
+        border: 40px #C0EDA6 solid;
+        border-radius: 50%;
+      }
+}
+
+.tituloreceta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    h2 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    color: $primario;
+    background-color: $claro;
+    border-radius: 10px;
+    width: 88%;}
+}
+
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 0.2rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+}
+
+.campos label {
+    margin: 1rem 0.5rem;
+}
+
+.campos {
+    margin-bottom: 0.5rem;
+  
+}
+
+@media (min-width: 1024px) {
+    
+    .receta {
+        display: block;
+        padding: 10px 100px;}
+
+    .tituloreceta {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+            h2 {
+            text-align: center;
+            font-size: 40px;
+            color: $primario;
+            background-color: $claro;
+            border-radius: 10px;
+            width: 88%;
+            
+            
+                }
+            
+     }       
+    
+
+} 
+

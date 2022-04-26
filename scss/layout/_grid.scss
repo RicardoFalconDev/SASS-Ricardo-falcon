@@ -1,0 +1,285 @@
+/* Grid Smarthphone */
+
+// GRID POR AREAS
+
+#grid-area {
+    display: grid;
+    /* estructura grid por areas */
+    grid-template-areas:
+        "menu"
+        "cabeza"
+        "productos"
+        "pie";
+
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 2fr 3fr 2fr 3fr 1fr;
+
+    /* espacios  */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+/* Grid para Tablet */
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    #grid-area {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas:
+        /* 3 columnas y 4 filas */
+            "menu menu "
+            /* fila 1 */
+            "cabeza cabeza"
+            /* fila 2 */
+            "productos productos"
+            /* fila 3 */
+            "newslatter newslatter"
+            " pie pie"
+            /* fila 4 */;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 5fr 1fr;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+    }
+
+    #gridsec1 {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas: "textsecc1 imgsecc1 ";
+        grid-template-columns: 50% 50%;
+
+        /* espacios  */
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    #gridsecc5 {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas: "imgsecc5 secc5 ";
+        grid-template-columns: 50% 50%;
+
+        /* espacios  */
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+
+    #gridProductos {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas:
+            "producto1 producto2 "
+            "producto3 producto3";
+        grid-template-columns: auto auto auto;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    #gridPagProductos {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas:
+            "producto1 producto2 "
+            "producto3 producto4"
+            "producto5 producto6"
+            "producto7 producto8"
+            "producto9 producto9";
+        grid-template-columns: auto auto auto;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    #gridproducto1 {
+        grid-area: producto1;
+    }
+
+    #gridproducto2 {
+        grid-area: producto2;
+    }
+
+    #gridproducto3 {
+        grid-area: producto3;
+    }
+
+    #gridproducto4 {
+        grid-area: producto4;
+    }
+
+    #gridproducto5 {
+        grid-area: producto5;
+    }
+
+    #gridproducto6 {
+        grid-area: producto6;
+    }
+
+    #gridproducto7 {
+        grid-area: producto7;
+    }
+
+    #gridproducto8 {
+        grid-area: producto8;
+    }
+
+    #gridproducto9 {
+        grid-area: producto9;
+    }
+
+    /* Nombrar cada area */
+
+    #productos {
+        grid-area: productos;
+        display: flex;
+        flex-direction: column;
+        color: #000;
+    }
+
+    #servicios {
+        grid-area: servicios;
+        text-align: center;
+        color: #333;
+    }
+
+    #newslatter {
+        grid-area: newslatter;
+        text-align: center;
+        color: #333;
+    }
+}
+
+/*Grid Desktop */
+
+@media (min-width: 1024px) {
+    #gridsec1 {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas: "textsecc1 imgsecc1 ";
+        grid-template-columns: 50% 50%;
+
+        /* espacios  */
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    #gridsecc5 {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas: "imgsecc5 secc5 ";
+        grid-template-columns: 50% 50%;
+
+        /* espacios  */
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    /*GRIDS por AREAS */
+
+    #grid-area {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas:
+            /* 3 columnas y 4 filas */
+            "menu menu "
+            /* fila 1 */
+            "cabeza cabeza"
+            /* fila 2 */
+            "productos productos"
+            /* fila 3 */
+            "newslatter newslatter"
+            " pie pie"
+            /* fila 4 */;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr 3fr 3fr 1fr;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+    }
+
+    #gridProductos {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas: "producto1 producto2 producto3 ";
+        grid-template-columns: auto auto auto;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    #gridPagProductos {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas:
+            "producto1 producto2 producto3 "
+            "producto4 producto5  producto6"
+            "producto7 producto8  producto9";
+        grid-template-columns: auto auto auto;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    #gridproducto1 {
+        grid-area: producto1;
+    }
+
+    #gridproducto2 {
+        grid-area: producto2;
+    }
+
+    #gridproducto3 {
+        grid-area: producto3;
+    }
+
+    #gridproducto4 {
+        grid-area: producto4;
+    }
+
+    #gridproducto5 {
+        grid-area: producto5;
+    }
+
+    #gridproducto6 {
+        grid-area: producto6;
+    }
+
+    #gridproducto7 {
+        grid-area: producto7;
+    }
+
+    #gridproducto8 {
+        grid-area: producto8;
+    }
+
+    #gridproducto9 {
+        grid-area: producto9;
+    }
+
+    #grid-area-nosotros {
+        display: grid;
+        /* estructura grid por areas */
+        grid-template-areas:
+            /* 3 columnas y 4 filas */
+            "menu menu "
+            /* fila 1 */
+            "cabeza cabeza"
+            /* fila 2 */
+            "productos productos"
+            /* fila 3 */
+            "newslatter newslatter"
+            " pie pie"
+            /* fila 4 */;
+        grid-template-columns: auto auto;
+        grid-template-rows: 1fr 3fr 3fr 1fr;
+
+        /* espacios  */
+        grid-column-gap: 5px;
+    }
+}

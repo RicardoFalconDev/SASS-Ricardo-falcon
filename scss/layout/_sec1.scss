@@ -1,0 +1,33 @@
+article {
+    background-color: #fff;
+    padding: 30px 15px;
+    text-align: center;
+    h3 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    p {
+        text-align: justify;
+    }
+
+}
+
+
+/*Seccion 1*/
+.sec1 {
+    margin: 0;
+    padding: 0;
+    background-color: $claro;
+    p {
+        padding: 0 30px 10px 30px;
+    
+    }
+    h2 {
+        padding: 10px 30px;
+    }
+    
+}
+
+.articulo {
+    width: 100%;
+}

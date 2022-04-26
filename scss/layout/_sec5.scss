@@ -1,0 +1,29 @@
+/*seccion 5*/
+.secc5img, #secc5 {
+    padding: 0;
+}
+
+.secc5 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sec5 {
+    background-color: $oscuro;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+    h2 {
+        color: white;
+    }
+    p {
+        text-align: center;
+        margin-top: 15px;
+        color: $claro;
+    }
+    button {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}

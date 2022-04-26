@@ -1,0 +1,62 @@
+// importando Variables
+
+@import 'utilities/variables';
+
+//importando Funciones (Vacio)
+@import 'utilities/functions';
+
+// importando Mixins (Vacio)
+@import 'utilities/mixins';
+
+// Reset 
+
+@import 'base/reset';
+
+// importando tipografia
+@import 'base/typo';
+
+//Menu de hamburguesa
+@import 'base/burguer-menu';
+
+// Layout
+
+// Menu de navegacion
+@import 'layout/navigation';
+
+// Grid de css
+@import 'layout/grid';
+
+// Header
+@import 'layout/header';
+
+//Seccion 1
+@import 'layout/sec1';
+
+//SEccion 2
+@import 'layout/sec2';
+
+//seccion 3 (Productos)
+@import 'layout/productos';
+
+//Seccion 4
+@import 'layout/sec5';
+
+//seccion lista de correo
+@import 'layout/newslatter';
+
+//Footer
+@import 'layout/footer';
+
+// Formularios
+@import 'layout/forms';
+// Botones 
+@import 'components/buttons';
+
+// Vista de las Paginas
+@import 'views/productos';
+@import 'views/nosotros';
+@import 'views/contacto';
+@import 'views/blog';
+
+@import 'mediaquerys/tablet';
+@import 'mediaquerys/desktop';

@@ -1,0 +1,68 @@
+/*Estilos Footer*/
+
+footer {
+    grid-area: pie;
+    background-color: $primario;
+    padding: 30px 0 10px 0;
+
+    nav {
+        padding: 0 0 10px 0;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+        margin: 15px 0;
+        padding: 0 15px;
+    }
+}
+
+.navfooter {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    a {
+        background-color: $primario;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.iconosFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    svg {
+        margin: 0 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    footer {
+        .navfooter {
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            a {
+                text-decoration: none;
+                padding: 0 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        .navfooter {
+            flex-flow: row;
+            align-items: center;
+            justify-content: center;
+            a {
+                text-decoration: none;
+                padding: 0 20px;
+            }
+        }
+    }
+}

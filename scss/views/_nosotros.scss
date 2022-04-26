@@ -1,0 +1,43 @@
+/* ////////SECCION SOBRE NOSOTROS//////// */
+
+#header-nosotros {
+    grid-area: cabeza;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    )
+    ,url("../resources/img/img-nosotros.jpeg");
+    height: 40vh;
+
+}
+
+#grid-area-nosotros {
+    display: grid;
+    /* estructura grid por areas */
+    grid-template-areas:
+        /* 3 columnas y 4 filas */
+        "menu menu "
+        /* fila 1 */
+        "cabeza cabeza"
+        /* fila 2 */
+        "productos productos"
+        /* fila 3 */
+        "newslatter newslatter"
+        " pie pie"
+        /* fila 4 */
+    ;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+
+    /* espacios  */
+    grid-column-gap: 5px;
+    
+}
